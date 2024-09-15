@@ -5,5 +5,5 @@ immutable_var[5][0] = 'T1'
 print(immutable_var)
 mutable_list = [1,2,'sort']
 print(mutable_list)
-mutable_list[2] = '3 start'
+mutable_list[2] = '3 sport'
 print(mutable_list)
