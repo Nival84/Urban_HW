@@ -6,5 +6,5 @@ age = age + 0.5
 print('new_age', age)
 is_student = True
 print('is_student:', is_student)
-print()
+print(is_student == age)
 print()
