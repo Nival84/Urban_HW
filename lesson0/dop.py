@@ -1,18 +1,3 @@
-# # name = [1, 2, 3, 4, 5].index(3, 0)
-# # print(name)
-# # name_2 = 'добро пожаловать на борт'.index('о', 2, 5)
-# # print(name_2)
-# #
-# # #Определить порядковый номер значения в строке
-# # s = 'abcdefg3423424245'
-# # for i in range(999):
-# #     print(i, s[i])
-# #
-# # name = "test"
-# # for index, char in enumerate(name):
-# #  print(f"{char} - {index}")
-# from lesson0.module_1_4 import my_string
-
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 list_student = list(students)
