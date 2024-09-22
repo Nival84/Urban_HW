@@ -1,5 +1,5 @@
-# name = [1, 2, 3, 4, 5].index(3, 0)
-# print(name)
+name = [1, 2, 3, 4, 5].index(3, 0)
+print(name)
 # name_2 = 'добро пожаловать на борт'.index('о', 2, 5)
 # print(name_2)
 #
@@ -115,6 +115,25 @@
 # dict1 = dict(zip(students_sort, grades_m))
 # print(dict1)
 
+# a = 9
+# b = 5
+# print(a/b)
+# print(a//b)
+# print(a%b)
+def get_matrix(n, m, value):
+    matrix = []
+    for i in range(n):
+        _list = []
+        matrix.append(_list)
+        for j in range(m):
+            matrix[i].append(value)
+    return matrix
 
 
+result1 = get_matrix(3, 4, 10)
+result2 = get_matrix(3, 5, 42)
+result3 = get_matrix(4, 2, 13)
+print(result1)
+print(result2)
+print(result3)
 
